@@ -1,7 +1,8 @@
 import sys
 
-# len 그리고 del로 인한 시간초과
+# del -> O(n) 으로 인한 시간초과
 # index를 사용함으로 해결
+# from collections import deque 로 deque()를 생성해 풀 수도 있다.
 
 class Queue:
 

@@ -4,6 +4,7 @@ import sys
 # index를 사용함으로 해결
 # from collections import deque 로 deque()를 생성해 풀 수도 있다.
 
+
 class Queue:
 
     def __init__(self):

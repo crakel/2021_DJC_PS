@@ -14,7 +14,7 @@ for _ in range(m):
     x, y = map(int, sys.stdin.readline().split())
     g[x][y] = g[y][x] = 1
 
-
+# 시작부터 끝까지 경로?
 def bfs(start, end):
     visit = [0 for _ in range(n+1)]
     visit[start] = 1

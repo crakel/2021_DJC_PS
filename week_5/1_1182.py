@@ -14,6 +14,8 @@ def dfs(idx, sum):
 
     if sum == s:
         cnt += 1
+
+    # 가지 뻣기의 개수 (binary)
     dfs(idx + 1, sum)
     dfs(idx + 1, sum - num[idx])
 

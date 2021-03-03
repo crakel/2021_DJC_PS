@@ -4,7 +4,7 @@ import heapq
 n = int(sys.stdin.readline())
 m = int(sys.stdin.readline())
 
-INF = float('inf')17
+INF = float('inf')
 
 graph = [[] for _ in range(n+1)]
 dist = [INF] * (n+1)

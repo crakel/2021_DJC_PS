@@ -10,7 +10,7 @@ for _ in range(n):
     x, y = map(float, sys.stdin.readline().strip().split())
     vertex.append((x, y))
 
-for i in range(n-1):
+for i in range(n - 1):
     for j in range(i, n):
         if i == j:
             continue
@@ -20,6 +20,8 @@ for i in range(n-1):
 
 edges = []
 res = 0
+
+
 def prim():
     global res
     heapq.heappush(edges, (0, 0))
@@ -32,6 +34,7 @@ def prim():
         visited[nxt] = 1
         for dist, nxt in graph[nxt]:
             heapq.heappush(edges, (dist, nxt))
+
 
 prim()
 print(round(res, 2))

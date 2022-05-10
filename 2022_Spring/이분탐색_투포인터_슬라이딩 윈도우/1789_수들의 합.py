@@ -16,7 +16,7 @@ s = int(sys.stdin.readline())
 # #print(n_sum)
 # print(len(n_sum))
 
-# 이분탐색_투포인터 풀이
+# 이분탐색_투포인터_슬라이딩 윈도우 풀이
 ans = 0
 left = 1
 right = s

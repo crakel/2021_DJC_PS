@@ -7,7 +7,7 @@ visitor = list(map(int, sys.stdin.readline().split()))
 left = 0
 right = x-1
 
-max_visit = 0
+max_visit = -1
 max_visit_cnt = 1
 
 cu_sum = [0]
@@ -22,6 +22,7 @@ while right != n:
     #print(sum_visit)
     if sum_visit > max_visit:
         max_visit = sum_visit
+        max_visit_cnt = 1
 
     elif sum_visit == max_visit:
         max_visit_cnt += 1

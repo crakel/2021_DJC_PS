@@ -9,9 +9,9 @@ stack = []
 for i in range(n):
     # stack = tower[:i] 시간초과?
     # list.index 쓸 시에도 시간초과
-    print(stack)
+    # print(stack)
     while stack:
-        if stack[-1][1] >= tower[i]:
+        if stack[-1][1] > tower[i]:
             res.append(stack[-1][0] + 1)
             break
         stack.pop()

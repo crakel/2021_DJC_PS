@@ -10,7 +10,7 @@ for i in combinations(lst, m):
     print('')
 
 
-# DFS 백트래킹 풀이
+# DFS_BFS 백트래킹 풀이
 # def dfs(start):
 #     if len(lst) == m:
 #         print(''.join(map(str, lst)))

@@ -1,6 +1,6 @@
 import sys
 import heapq
-
+heapq.heappush()
 n, m = map(int, sys.stdin.readline().split())
 card = list(map(int, sys.stdin.readline().split()))
 

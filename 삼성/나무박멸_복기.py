@@ -173,7 +173,8 @@ for i in range(M):
     for fi in fire_ing:
         print(fi)
     print()
-    #print(fire_ing)
+    #print(fire_ing)[필수문항] 자신에 대해 자유롭게 표현해 주세요.
+
 
     job_grow()
     print("성장")
